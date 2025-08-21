@@ -30,6 +30,7 @@ int main() {
 
     printf("Sum = %d", sum);                // imprimo la suma de todos los elementos
 
+    free(ptr);                              // libero la memoria reservada dinámicamente
     
 
     return 0;                               
